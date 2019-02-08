@@ -14,4 +14,4 @@ def result():
 	t1 = kgram(a)
 	t2 = kgram(b)
 
-	return  str(similarity(t1,t2))
+	return  str(similarity(t1,t2)*100)+'%'
